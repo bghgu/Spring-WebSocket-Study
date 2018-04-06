@@ -3,7 +3,7 @@
 2018 소프트웨어 캡스톤 디자인 WebSocket Study
 
 1. Spring Official document ex
-2. (Spring WebSocket + STOMP + IONIC1)
+2. (Spring WebSocket + STOMP + IONIC1을 이용한 채팅)
 
 
 
@@ -69,11 +69,6 @@ WebSocket을 지원하지 않는 브라우저를 위한 솔루션
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!--<dependency>
-            <groupId>org.apache.tomcat.embed</groupId>
-            <artifactId>tomcat-embed-jasper</artifactId>
-            <version>8.5.20</version>
-        </dependency>-->
 
         <dependency>
             <groupId>org.webjars</groupId>
@@ -132,12 +127,13 @@ nohup mvn spring-boot:run&
 
 ## 사용된 도구
 
-* [Spring-boot](https://projects.spring.io/spring-boot/) - Spring-boot 웹 프레임워크
+* [Spring-boot](https://projects.spring.io/spring-boot/) - Spring-boot Web Framework
 * [Maven](https://maven.apache.org/) - 의존성 관리 프로그램
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/) - IDEA
 * [SockJS](https://github.com/sockjs) - WebSocket 미지원 브라우저를 위한 솔루션
 * [bootstrapk](http://bootstrapk.com/) - CSS 도우미
 * [jQuery](https://jquery.com/) - DOM 객체 접근 도우미
+* [IONIC1](https://ionicframework.com/docs/v1/) - Hybrid App Framework
 
 ## 저자
 
